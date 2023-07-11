@@ -4,7 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def core(request):
-    return HttpResponse('core page')
+    return render(request, 'blog/core.html')
 
-def about(request):
-    return HttpResponse('about page')    
+
