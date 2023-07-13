@@ -9,3 +9,14 @@ class BlogPostModel(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    # Sort by most recent
+    class Meta:
+        ordering = ('-date',)
+
+    # Display title in admin
+    def __str__(self):
+        return self.title
+
+
+
+

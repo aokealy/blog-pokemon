@@ -13,39 +13,26 @@
         </div>
         <!--Where the blogs will appear on right side-->
         <div class="col-md-8">
+            {% for post in blogpost %}
             <div class="card shadow-lg border-0 my-4">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="" alt="image">
+                            <img class="img-thumbnail" src="" alt="image">
                         </div>
                         <div class="col-md-8">
-                            <small>10th June 2023</small>
+                            <small>{{post.author}} | {{ post.date }}</small>
                             <hr>
-                            <a class="h4 text-danger" href="">Pokemon Post</a>
-                            <p  class="text-justify my-3">filler text for now</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>  
-            <div class="card shadow-lg border-0 my-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="" alt="image">
-
-                        </div>
-                        <div class="col-md-8">
-                            <small>10th June 2023</small>
-                            <hr>
-                            <a class="h4 text-danger" href="">Pokemon Post</a>
-                            <p  class="text-justify my-3">filler text for now</p>
+                            <!--Add django  tags-->
+                            <a class="h3 text-danger" href="">{{ post.title }}</a>
+                            <p class="text-justify my-4">{{ post.description }}</p>
                         </div>
                     </div>
                 </div>
-            </div>          
+            </div>
+            {% endfor %}
         </div>
-    </div>
+     </div>
 </div>
 
 {% endblock %}

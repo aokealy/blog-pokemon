@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import BlogPostModel
 
 # Create your views here.
 
 def core(request):
-    return render(request, 'blog/core.html')
+    blogpost = BlogPostModel.objects.all()
+    return render(request, 'blog/core.html', {'blogpost':blogpost})
 
 
