@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import BlogPostModel
 from .forms import BlogPostModelForm
 
@@ -6,7 +6,15 @@ from .forms import BlogPostModelForm
 
 def core(request):
     blogpost = BlogPostModel.objects.all()
-    form = BlogPostModelForm()    
+    if request.method == 'POST':
+        form = BlogPostModelForm(request.POST)
+        if form.is_valid():
+           instance = form.save(commit=False)
+           instance.author = request.user
+           instance.save()
+           return redirect('core')
+    else:
+        form = BlogPostModelForm()    
     context = {
         'blogpost': blogpost,
         'form': form

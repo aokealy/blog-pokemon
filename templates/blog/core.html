@@ -1,5 +1,7 @@
 {% extends 'partials/index.html' %}
+{% load crispy_forms_tags %}
 {% block content %}
+
 
 <!--Where we will create blog-->
 <div class="container">
@@ -8,7 +10,9 @@
             <div class="card my-4 shadow-lg border-0">
                 <div class="card-body">
                     <form method="POST">
-                        
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <input class="btn btn-danger border-0 w-100" type="submit" value="Create Blog">
                     </form>
                 </div>
             </div>
@@ -32,6 +36,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             {% endfor %}
         </div>
      </div>
