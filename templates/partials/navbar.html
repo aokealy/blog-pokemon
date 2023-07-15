@@ -1,19 +1,30 @@
 <nav class="navbar navbar-expand-lg navbar-danger bg-danger fixed-top">
-    <div class="container">
-    <a class="navbar-brand text-white" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Link</a>
-        </li>
-      </ul>
-    </div>
+  <div class="container">
+    {% if request.user.is_authenticated %}
+  <a class="navbar-brand text-white" href="{% url 'core' %}"><i class="fa-solid fa-bolt" style="color: #f0ff1f;"></i>&nbsp; Pokemon-Blog </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href=""><i class="fa-solid fa-user" style="color: #1cabf2;"></i> &nbsp; Account <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href=""><i class="fa-solid fa-right-from-bracket" style="color: #e0a34d;"></i> &nbsp; Logout</a>
+      </li> 
+    </ul> 
+    {% else %}
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href=""><i class="fa-solid fa-user-plus" style="color: #34e557;"></i> &nbsp; Register<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href=""><i class="fa-solid fa-user" style="color: #43bff4;"></i> &nbsp; Login</a>
+      </li> 
+    </ul>  
+    {% endif %}
+  </div>
 </div>
-  </nav>
+</nav>
