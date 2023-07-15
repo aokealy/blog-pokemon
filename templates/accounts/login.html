@@ -1,0 +1,27 @@
+{% extends 'partials/index.html' %}
+{% block title %} Login {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-4 offset-md-4">
+            <div class="card my-4 shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="text-center"><i class="fa-solid fa-key" style="color: #4d8eff;"></i>&nbsp; Login </h3>
+                    <hr>
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <input class="btn btn-danger border-0 w-100" type="submit" value="Login">
+                    </form>
+                    <hr>
+                    <a class="btn btn-success my-4 w-100" href="">Register an Account</a>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+</div>
+
+{% endblock %}
