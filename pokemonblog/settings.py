@@ -134,6 +134,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 LOGIN_REDIRECT_URL = 'core'
+SESSION_COOKIE_AGE = 1000
+SESSION_SAVE_EVERY_REQUEST = True
 
 STATIC_URL = '/static/'
 

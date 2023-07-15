@@ -1,0 +1,71 @@
+{% extends 'partials/index.html' %}
+{% block title %} Account {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-6 offset-md-3">
+            <div class="card my-4 shadow-lg border-0">
+                <div class="card-body">
+                    <span class="h3"><i class="fa-solid fa-id-badge" style="color: #bf8f3b;"></i> &nbsp; Account Profile:</span>
+                    <span>
+                        <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#exampleModal">
+                        Edit
+                      </button>
+                    </span>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-thumbnail shadow-sm" src="" alt="image">
+                        </div>
+                        <div class="col-md-8">
+                            <h5><i class="fa-solid fa-face-smile" style="color: #23fbec;"></i> &nbsp; Name: {{user.username}}</h5>
+                            <hr>
+                            <h5><i class="fa-solid fa-envelope" style="color: #44e47c;"></i> &nbsp; Email: {{user.email}}</h5>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     </div>
+</div>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Account:</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="" alt="">
+            </div>
+            <div class="col-md-8">
+              <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                {{user_form|crispy}}
+
+                {{account_form|crispy}}
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa-solid fa-left-long" style="color: #22e8ec;"></i>&nbsp; Go Back</button>
+                  <button type="submit" class="btn btn-danger">Confirm &nbsp; <i class="fa-solid fa-pen-to-square" style="color: #3ff36c;"></i></button>
+                </div>
+             </form>
+            </div>
+          </div>  
+       
+        </div>
+        
+      </div>
+    </div>
+  </div>
+{% endblock %}
