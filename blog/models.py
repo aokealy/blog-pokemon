@@ -17,6 +17,21 @@ class BlogPostModel(models.Model):
     def __str__(self):
         return self.title
 
+    def comment_amount(self):
+        return self.comment_set.all().count()  
+        
+    def comments(self):
+        return self.comment_set.all()      
+    
+
+
+class Comment(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE) 
+    post = models.ForeignKey(BlogPostModel, on_delete=models.CASCADE)
+    description = models.CharField(max_length=250)   
+
+    def __str__(self):
+        return self.description    
 
 
 
