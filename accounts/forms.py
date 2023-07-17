@@ -25,9 +25,4 @@ class UserUpdateForm(forms.ModelForm):
         super(UserUpdateForm, self).__init__(*args, **kwargs)  
         for fieldname in ['username', 'email']:
             self.fields[fieldname].help_text = None   
-
-
-class AccountUpdateForm(forms.ModelForm):
-    class Meta:
-        model = AccountModel
-        fields = ['image']                         
+                     

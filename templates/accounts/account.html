@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="container">
-    <div class="row mt-5 pt-5">
+    <div class="row mt-7 pt-5">
         <div class="col-md-8 offset-md-2">
             <div class="card my-4 shadow-lg border-0">
                 <div class="card-body">
@@ -17,7 +17,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-thumbnail shadow-sm" src="{{user.accountmodel.image.url}}" alt="image">
+                          <i class="fa-solid fa-share-from-square fa-4x p-4" style="color: #37e159;"></i>
                         </div>
                         <div class="col-md-8">
                             <h5><i class="fa-solid fa-face-smile" style="color: #23fbec;"></i> &nbsp; Name: {{user.username}}</h5>
@@ -45,7 +45,7 @@
         <div class="modal-body">
           <div class="row">
             <div class="col-md-4">
-              <img class="img-thumbnail" src="#" alt="image">
+              <i class="fa-solid fa-person-chalkboard fa-5x" style="color: #d4a421;"></i>
             </div>
             <div class="col-md-8">
               <form method="POST" enctype="multipart/form-data">
