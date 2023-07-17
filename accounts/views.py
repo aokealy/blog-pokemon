@@ -31,3 +31,15 @@ def account(request):
     }
 
       return render(request, 'accounts/account.html', context)    
+
+
+def blog_edit(request, pk):
+    post = BlogPostModel.objects.get(id=pk)  
+
+    context = {
+        'post':post,
+        
+
+    }
+    return render(request, 'blog/blog_edit.html', context)
+    
