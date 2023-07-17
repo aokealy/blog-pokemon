@@ -16,7 +16,7 @@
                             <small>{{post.author}} | {{ post.date }}</small>
                             {% if post.author == request.user %}
                             <span class="btn btn-danger float-right"><a class="text-white" href="">Delete</a></span>
-                            <span class="btn btn-info float-right mx-3"><a class="text-white" href="">Edit</a></span>
+                            <span class="btn btn-info float-right mx-3"><a class="text-white" href="{% url 'blog-edit' post.id %}">Edit</a></span>
                             {% endif %}
                             <hr>
                             <h3 class="text-center">{{ post.title }}</h3>
