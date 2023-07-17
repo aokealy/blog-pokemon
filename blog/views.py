@@ -21,4 +21,14 @@ def core(request):
     }
     return render(request, 'blog/core.html', context)
 
+def blog_detail(request, pk):
+    post = BlogPostModel.objects.get(id=pk)   
+
+    context = {
+        'post':post,
+        
+    }
+    return render(request, 'blog/blog_detail.html', context)    
+ 
+
 

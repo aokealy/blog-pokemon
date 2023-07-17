@@ -30,7 +30,7 @@
                             <small>{{post.author}} | {{ post.date }}</small>
                             <hr>
                             <!--Add django  tags-->
-                            <a class="h3 text-danger" href="">{{ post.title }}</a>
+                            <a class="h3 text-danger" href="{% url 'blog-detail' post.id %}">{{ post.title }}</a>
                             <p class="text-justify my-4">{{ post.description }}</p>
                         </div>
                     </div>
