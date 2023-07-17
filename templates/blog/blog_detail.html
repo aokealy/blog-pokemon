@@ -1,0 +1,55 @@
+{% extends 'partials/index.html' %}
+{% block title %} Blog Detail {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5 pt-3">
+        <div class="col-md-8 offset-md-2">
+            <div class="card my-4 shadow-lg border">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-bolt fa-5x p-4" style="color: #fcff2e;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <small>{{post.author}} | {{ post.date }}</small>
+                            {% if post.author == request.user %}
+                            <span class="btn btn-danger float-right"><a class="text-white" href="{% url 'blog-delete' post.id %}">Delete</a></span>
+                            <span class="btn btn-info float-right mx-3"><a class="text-white" href="{% url 'blog-edit' post.id %}">Edit</a></span>
+                            {% endif %}
+                            <hr>
+                            <h3 class="text-center">{{ post.title }}</h3>
+                            <p class="text-center">{{post.description}}</p>
+                        </div>
+                    </div>
+                        <p class="mt-2">
+                            <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Comments: {{ post.comment_amount }}
+                            </a>
+                          </p>
+                          <div class="collapse" id="collapseExample">
+                            
+                            <div style="height: 200px; overflow-y: scroll;" class="card card-body">
+                              {% for comment in post.comments %}
+                              <p class="text-center">
+                                <i class="fa-solid fa-bolt" style="color: #e6df0f;"></i>  &nbsp; {{comment.description}} &nbsp; <i class="fa-solid fa-bolt" style="color: #e6df0f;"></i>
+                              <hr>
+                              </p>
+                              {% endfor %}  
+                            </div>
+                          </div>
+                          <form method="POST">
+                            {% csrf_token %}
+                            {{ comment_form|crispy }}
+                            <input class="btn btn-info" type="submit" value="Add Comment">
+                          </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>  
+     </div>
+</div>
+
+{% endblock %}
