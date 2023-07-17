@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
 from .forms import RegisterForm, UserUpdateForm
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def register(request):
@@ -17,6 +18,7 @@ def register(request):
     }
      return render(request, 'accounts/register.html', context)
 
+@login_required
 def account(request):
       if request.method == 'POST':
         user_form = UserUpdateForm(request.POST or None, instance=request.user)

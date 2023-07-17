@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect
 from .models import BlogPostModel
 from .forms import BlogPostModelForm, BlogPostUpdateForm, CommentForm
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
+@login_required
 def core(request):
     blogpost = BlogPostModel.objects.all()
     if request.method == 'POST':
@@ -21,6 +23,7 @@ def core(request):
     }
     return render(request, 'blog/core.html', context)
 
+@login_required
 def blog_detail(request, pk):
     post = BlogPostModel.objects.get(id=pk)
     if request.method == 'POST':
@@ -39,7 +42,7 @@ def blog_detail(request, pk):
     }
     return render(request, 'blog/blog_detail.html', context)  
 
-
+@login_required
 def blog_edit(request, pk):
     post = BlogPostModel.objects.get(id=pk)
     if request.method == 'POST':
@@ -57,6 +60,7 @@ def blog_edit(request, pk):
     }
     return render(request, 'blog/blog_edit.html', context)
 
+@login_required
 def blog_delete(request, pk): 
     post = BlogPostModel.objects.get(id=pk)
     if request.method == 'POST':
