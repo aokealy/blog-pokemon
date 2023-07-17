@@ -1,0 +1,26 @@
+{% extends 'partials/index.html' %}
+{% block title %} Blog Detail {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5 pt-3">
+        <div class="col-md-8 offset-md-2">
+            <div class="card my-4 shadow-lg border">
+                <div class="card-body">
+                    <div class="alert alert-danger">
+                        Are you sure you want to delete this blog post?
+                    </div>
+                    <form method="POST">
+                        {% csrf_token %}
+                        <a class="btn btn-info" href="{% url 'blog-detail' post.id %}">Cancel</a>
+                        <input class="btn btn-danger" type="submit" value="Confirm">
+                    </form>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+{% endblock %}
