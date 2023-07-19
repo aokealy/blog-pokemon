@@ -29,6 +29,10 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 
 - ![Screenshot](/media/bootstrap-colours.PNG)
 
+# Agile User Stories:
+- Here is a link to my user stories: 
+- https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
+
 # Features:
 ## Existing Features:
 
@@ -89,7 +93,14 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 Testing is hard but very important to make sure that all functions of your code work. 
 - ![Screenshot](/media/coverage-report.PNG)
 
+- Pep8
+- Used PEP8 to follow to make sure the code is readable and has good naming functions to easily read it. 
 
+
+# Bugs
+- Main bugs included that when I was not signed into account I could access core page so I had to use login_required decorator to fix that issue. (fixed)
+
+- First attempt of Deployment had a big issue with admin page not displaying css so I had to collectstatic which solved the issue. 
 
 # Technolgy used:
 - Python - Provides the functionality for the site.
@@ -119,6 +130,7 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 Use the arrows below to drop down and view the steps
 
 1. To begin with we need to create a GitHub repository from the [Code Institute template](https://github.com/Code-Institute-Org/gitpod-full-template) by following the link and then click 'Use this template'.
+- ![Screenshot](/media/code-institute-template.PNG)
 
 <details><summary><b>Heroku Deployment - Step 1</b></summary>
 
@@ -132,6 +144,7 @@ Heroku Deployment Step 1
 </details><br />
 
 3. When the repository creation is done click 'Gitpod' as stated in the screenshot below.
+- ![Screenshot](/media/gitpod-button.PNG)
 
 <details><summary><b>Heroku Deployment - Step 3</b></summary>
 
@@ -193,6 +206,7 @@ Heroku Deployment Step 1
 * Head on to [Heroku](https://www.heroku.com/) and sign in (or create an account if needed).
 
 * In the top right corner there is a button that is labeled 'New'. Click that and then select 'Create new app'.
+- ![Screenshot](/media/create-new-app-heroku.PNG)
 
 <details><summary><b>Heroku Step 09</b></summary>
 
@@ -200,6 +214,7 @@ Heroku Deployment Step 1
 </details><br />
 
 10. Now it's time to enter an application name that needs to be unique. When you have chosen the name, choose your region and click 'Create app".
+- ![Screenshot](/media/create-app-heroku.PNG)
 
 <details><summary><b>Heroku Step 10</b></summary>
 
@@ -210,7 +225,6 @@ Heroku Deployment Step 1
 
 <details><summary><b>Heroku Step 11</b></summary>
 
-![Heroku Step 11]
 ![Heroku Step 11]
 </details><br />
 
@@ -227,12 +241,16 @@ Heroku Deployment Step 1
 * ```os.environ["DATABASE_URL_FROM HEROKU"]``` - This sets the environment variables.
 * ```os.environ["SECRET_KEY"]``` - Here you can choose whatever secret key you want.
 
+- ![Screenshot](/media/env-file.PNG)
+
 <details><summary><b>Heroku Step 13</b></summary>
 
 ![Heroku Step 13]
 </details><br />
 
 14. Now we are going to head back to Heroku to add our secret key to config vars. See screenshot below.
+
+- ![Screenshot](/media/secret-key.PNG)
 
 <details><summary><b>Heroku Step 14</b></summary>
 
