@@ -6,15 +6,19 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 # User Experience (UX):
 ## Wireframes:
 - Login and Register wireframe
+- Easy to find on Front Page in Navbar and simple proccess to to either register or login. Most commonly found on the right side of the navigation bar in a lot of different websites so it gives familiarity.
 - ![Screenshot](/media/wireframe-login.PNG)
 
 - Core page wireframe
+- Split the core page into two sections where everything is displayed such as the create blog and displaying the blogs. My idea is that everything is on one page and not split into different pages which could confuse the user so I decided it would be best to display into two sections instead. 
 - ![Screenshot](/media/wireframe-core.PNG)
 
 - accounts page wireframe
+- Friendly Icons and good colours when looking at editing your account and looking at the account which gives you a friendly vibe and easily layed out to change name and email.
 - ![Screenshot](/media/wireframe-account.PNG)
 
 - Blog Detail wirframe
+- View the blog where I the text is centered and easily readable alongside adding a comment section underneath where you can view if anyone has made a comment or not and also have CRUD function buttons for your own personal blog post.
 - ![Screenshot](/media/wireframe-blog-detail.PNG)
 
 # Design Choices:
