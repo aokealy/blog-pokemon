@@ -104,6 +104,8 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - First attempt of Deployment had a big issue with admin page not displaying css so I had to collectstatic which solved the issue. 
 
+- Testing views was tough as testing is something that takes time to get used too but that is something I want to improve further down the line. 
+
 # Technolgy used:
 - Python - Provides the functionality for the site.
 - HTML5 - Provides the content and structure for the website.
