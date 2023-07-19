@@ -18,6 +18,16 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 
 # Design Choices:
 ## Typography:
+### Font:
+- The font that was used was the standard Django font sans-serif
+- In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes. Sans-serif typefaces tend to have less stroke width variation than serif typefaces
+
+### Colours:
+- The colours that were used during this project were the standard bootstrap colours. 
+- The main one that was used was the danger bootstrap font to represent the colour of a pokemon ball with the red and the white to give off the Pokemon ball vibe.
+- ![Screenshot](/media/pokemon-ball.png)
+
+- ![Screenshot](/media/bootstrap-colours.PNG)
 
 # Features:
 ## Existing Features:
@@ -57,6 +67,12 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 
 ### Potential Features:
 
+- I would like to be able to add images in the future 
+- Comments can be upvoted and downvoted
+- Be able to have a section on core page where updated comments and posts are.
+- show active users on page 
+- links to social media
+
 # Testing:
 - Lighthouse score test:
 - ![Screenshot](/media/lighthouse-report.PNG)
@@ -68,6 +84,10 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 - small div unused but couldn't find
 - ![Screenshot](/media/html-report.PNG)
 
+- Unittest and Coverage:
+- I used Unittest to test the views, models and forms using django built in unnitest and screenshot the report for the test using coverage which helps give you an idea of where tests need to be made and views was the hardest thing to test. There is a htmlcov folder that was created from coverage that helps us view the report. 
+Testing is hard but very important to make sure that all functions of your code work. 
+- ![Screenshot](/media/coverage-report.PNG)
 
 
 
@@ -89,6 +109,7 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 - https://getbootstrap.com/docs/4.6/components/modal/ - bootstrap Modal 
 - https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example - accordion collaspe
 - https://wireframe.cc/ - Wireframes
+- https://getbootstrap.com/docs/4.0/utilities/colors/ - bootstrap colours
 
 # Deployment:
 
