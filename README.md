@@ -5,10 +5,26 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 # User Experience (UX):
 
 # Design Choices:
+## Typography:
 
 # Features:
+## Existing Features:
+
+### Potential Features:
 
 # Testing:
+- Lighthouse score test:
+- ![Screenshot](/media/lighthouse-report.PNG)
+
+- CSS Validator:
+- ![Screenshot](/media/css-report.PNG)
+
+- HTML Validator:
+- small div unused but couldn't find
+- ![Screenshot](/media/html-report.PNG)
+
+
+
 
 # Technolgy used:
 - Python - Provides the functionality for the site.
