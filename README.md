@@ -1,7 +1,8 @@
 # Project 4
-- This is my project 4 submission for Code Institute where I have created a Pokemon blog where you can look at topics of Pokemon and create comments and interact with others with a nice easy vibe :D.
-Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.herokuapp.com/
-
+- This is my project 4 submission for Code Institute where I have created a Pokemon blog where you can look at topics of Pokemon and create a blog and interact with others using comments.
+I have always been passionate about Pokemon so I wanted to create a simple pokemon blog style application that is easy and friendly to use and just have some fun when creating a blog post :).
+- Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.herokuapp.com/
+- Here is a link to my github https://github.com/aokealy/blog-pokemon
 # User Experience (UX):
 ## Wireframes:
 - Login and Register wireframe
@@ -31,6 +32,7 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 
 # Agile User Stories:
 - Here is a link to my user stories: 
+- I followed this guidline and used three cards to determine what was next such as todo, progress and done for completion of my user stories. 
 - https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
 
 # Features:
