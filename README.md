@@ -3,12 +3,57 @@
 Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.herokuapp.com/
 
 # User Experience (UX):
+## Wireframes:
+- Login and Register wireframe
+- ![Screenshot](/media/wireframe-login.PNG)
+
+- Core page wireframe
+- ![Screenshot](/media/wireframe-core.PNG)
+
+- accounts page wireframe
+- ![Screenshot](/media/wireframe-account.PNG)
+
+- Blog Detail wirframe
+- ![Screenshot](/media/wireframe-blog-detail.PNG)
 
 # Design Choices:
 ## Typography:
 
 # Features:
 ## Existing Features:
+
+### Login and Register:
+- Login Page is first thing to show up when opening the blog application as you cannot use it unless you have registered and logged in.
+- ![Screenshot](/media/login-page.PNG)
+
+- Register Page
+- ![Screenshot](/media/register-page.PNG)
+
+- Blog Core Page is the page you access after you have logged in where you can see all the blog posts that have been created and can also create your very own blog if you wish. The Pokemon Blog in the top left corner only appears if you are logged in! 
+- ![Screenshot](/media/core-page.PNG)
+
+- Blog Detail page is when after clicking a blog you can view and see more of that post and be able to comment on that post.
+- ![Screenshot](/media/blog-detail-page.PNG)
+
+- If you own the post then you will see buttons on the right where you can edit the blog post you made or be able to delete that post if you wish.
+- ![Screenshot](/media/crud.PNG)
+
+- You can edit the blog post you created and be able to change the title and description of that blog post.
+- ![Screenshot](/media/crud-edit.PNG)
+
+- You can delete or cancel the post if you don't want it to exist anymore or do not want to delete it.
+- ![Screenshot](/media/crud-delete.PNG)
+
+- On the Core page you can create a post that will appear to the right of the same page when you create a new blog with a title and description.
+- ![Screenshot](/media/crud-create.PNG)
+
+- You can click on the account page and change the username and email if you want to give you a bit more customization. You can confirm or cancel. 
+- ![Screenshot](/media/edit-account-page.PNG)
+
+- You can create a comment on a blog detail page and interact with others who also post on that blog post.
+- ![Screenshot](/media/comment-page.PNG)
+
+
 
 ### Potential Features:
 
@@ -43,6 +88,7 @@ Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.
 - https://getbootstrap.com/docs/4.6/getting-started/introduction/ - Bootstrap 4.6 cdn
 - https://getbootstrap.com/docs/4.6/components/modal/ - bootstrap Modal 
 - https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example - accordion collaspe
+- https://wireframe.cc/ - Wireframes
 
 # Deployment:
 
