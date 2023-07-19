@@ -382,7 +382,7 @@ It is possible to do a independent copy of a GitHub Repository by forking the Gi
 
 <details><summary><b>Github Fork</b></summary>
 
-![Fork](readme/assets/images/github_fork.png)
+![Fork](/media/fork-button.PNG)
 </details><br />
 
 
@@ -399,6 +399,7 @@ To clone and set up this project you need to follow the steps below.
 <details><summary><b>Github Create Local Clone</b></summary>
 
 ![Clone]
+![Clone](/media/clone-tab.PNG)
 </details><br />
 
 5. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
@@ -412,7 +413,7 @@ To clone and set up this project you need to follow the steps below.
 
 <details><summary><b>Setup env.py</b></summary>
 
-![Clone]
+![Clone](/media/env-file.PNG)
 </details><br />
 
 
