@@ -98,6 +98,22 @@ Testing is hard but very important to make sure that all functions of your code 
 - Pep8
 - Used PEP8 to follow to make sure the code is readable and has good naming functions to easily read it. 
 
+- Testing was done across multiple viewports sizes to ensure responsiveness.
+
+- Manual testing was constantly conducted to ensure successful deployment across the different platforms.
+
+- Manual testing for the following functions listed below:
+
+- Creating an account to enter and view site (Working)
+
+- Entering details into form and submitting form (Working)
+
+- Admin Panel that allows the Creating/Updating/Deleting of blog (Working)
+
+- Allowing users to create/Edit blog/Delete blog (Working)
+
+
+
 
 # Bugs
 - Main bugs included that when I was not signed into account I could access core page so I had to use login_required decorator to fix that issue. (fixed)
