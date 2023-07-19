@@ -141,6 +141,7 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example - accordion collaspe
 - https://wireframe.cc/ - Wireframes
 - https://getbootstrap.com/docs/4.0/utilities/colors/ - bootstrap colours
+- https://fontawesome.com/ - Font Awesome
 
 # Deployment:
 
