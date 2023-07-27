@@ -5,72 +5,66 @@ from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
+
 @login_required
 def core(request):
     blogpost = BlogPostModel.objects.all()
-    if request.method == 'POST':
+    if request.method == "POST":
         form = BlogPostModelForm(request.POST)
         if form.is_valid():
-           instance = form.save(commit=False)
-           instance.author = request.user
-           instance.save()
-           return redirect('core')
+            instance = form.save(commit=False)
+            instance.author = request.user
+            instance.save()
+            return redirect("core")
     else:
-        form = BlogPostModelForm()    
-    context = {
-        'blogpost': blogpost,
-        'form': form
-    }
-    return render(request, 'blog/core.html', context)
+        form = BlogPostModelForm()
+    context = {"blogpost": blogpost, "form": form}
+    return render(request, "blog/core.html", context)
+
 
 @login_required
 def blog_detail(request, pk):
     post = BlogPostModel.objects.get(id=pk)
-    if request.method == 'POST':
+    if request.method == "POST":
         comment_form = CommentForm(request.POST)
         if comment_form.is_valid():
             instance = comment_form.save(commit=False)
             instance.user = request.user
             instance.post = post
             instance.save()
-            return redirect('blog-detail', pk=post.id)
+            return redirect("blog-detail", pk=post.id)
     else:
-        comment_form = CommentForm()    
+        comment_form = CommentForm()
     context = {
-        'post':post,
-        'comment_form':comment_form,
+        "post": post,
+        "comment_form": comment_form,
     }
-    return render(request, 'blog/blog_detail.html', context)  
+    return render(request, "blog/blog_detail.html", context)
+
 
 @login_required
 def blog_edit(request, pk):
     post = BlogPostModel.objects.get(id=pk)
-    if request.method == 'POST':
+    if request.method == "POST":
         form = BlogPostUpdateForm(request.POST, instance=post)
         if form.is_valid():
             form.save()
-            return redirect('blog-detail', pk=post.id)
+            return redirect("blog-detail", pk=post.id)
     else:
         form = BlogPostUpdateForm(instance=post)
-    
-    context = {
-        'post':post,
-        'form':form,
 
+    context = {
+        "post": post,
+        "form": form,
     }
-    return render(request, 'blog/blog_edit.html', context)
+    return render(request, "blog/blog_edit.html", context)
+
 
 @login_required
-def blog_delete(request, pk): 
+def blog_delete(request, pk):
     post = BlogPostModel.objects.get(id=pk)
-    if request.method == 'POST':
+    if request.method == "POST":
         post.delete()
-        return redirect('core')
-    context = {
-        'post': post
-    }
-    return render(request, 'blog/blog_delete.html', context)   
-
- 
-
-
+        return redirect("core")
+    context = {"post": post}
+    return render(request, "blog/blog_delete.html", context)
