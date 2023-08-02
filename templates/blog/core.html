@@ -9,6 +9,8 @@
         <div class="col-md-4">
             <div class="card my-4 shadow-lg border-0">
                 <div class="card-body">
+                    <h2>Pokemon Create &nbsp;<i class="fa-solid fa-comment" style="color: #30cafd;"></i></h2>
+                    <hr>
                     <form method="POST">
                         {% csrf_token %}
                         {{ form|crispy }}
