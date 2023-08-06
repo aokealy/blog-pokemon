@@ -106,7 +106,7 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - Manual testing was constantly conducted to ensure successful deployment across the different platforms.
 
-- Manual testing for the following functions listed below:
+## Manual testing for the following functions listed below:
 
 - Creating an account to enter and view site (Working)
 
@@ -115,6 +115,10 @@ Testing is hard but very important to make sure that all functions of your code 
 - Admin Panel that allows the Creating/Updating/Deleting of blog (Working)
 
 - Allowing users to create/Edit blog/Delete blog (Working)
+
+- Allow users to register and login (Working)
+
+
 
 
 
