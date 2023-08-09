@@ -106,7 +106,7 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - Manual testing was constantly conducted to ensure successful deployment across the different platforms.
 
-## Manual testing for the following functions listed below:
+## Manual testing Python for the following functions listed below:
 
 - Creating an account to enter and view site (Working)
 
@@ -117,6 +117,13 @@ Testing is hard but very important to make sure that all functions of your code 
 - Allowing users to create/Edit blog/Delete blog (Working)
 
 - Allow users to register and login (Working)
+
+## Manual Testing For Javascript function
+- Test Javascript script that the logged out danger message timeout after 5 seconds after logging out (working)
+- ![Screenshot](/media/timeout-start-test.PNG)
+- The message timesout after 5 seconds after logging out which indicates that our javascript is functioning as intended.
+
+- ![Screenshot](/media/timeout-test.PNG)
 
 
 
