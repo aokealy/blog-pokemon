@@ -164,6 +164,8 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - Inside mobile view the hamburger menu does not display but can be clicked to view the login logout details
 
+- Using main.css became an issue when trying to link the custom page as I had deployed the project and couldn't load static on page so I used CSS on the html page which I know is not the most opitmal solution as it should be linked in seperate file but in order for the scroll effect to work on comment page I linked on the html page as that is where my only css I used was made. 
+
 # Technolgy used:
 - Python - Provides the functionality for the site.
 - HTML5 - Provides the content and structure for the website.
@@ -189,6 +191,7 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://pypi.org/project/black/ - Used for keeping the python in check with guidlines of PEP8
 - https://docs.djangoproject.com/en/4.2/topics/forms/ - Django Forms 
 - https://websitemockupgenerator.com/ - MockUp generator 
+- https://docs.djangoproject.com/en/4.2/topics/auth/default/ - auntentication 
 
 # Deployment:
 
