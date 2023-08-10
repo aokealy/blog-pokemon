@@ -167,7 +167,7 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - Inside mobile view the hamburger menu does not display but can be clicked to view the login logout details
 
-- Using main.css became an issue when trying to link the custom page as I had deployed the project and couldn't load static on page so I used CSS on the html page which I know is not the most opitmal solution as it should be linked in seperate file but in order for the scroll effect to work on comment page I linked on the html page as that is where my only css I used was made. 
+- Using main.css became an issue when trying to link the custom page as I had deployed the project and couldn't load static on page so I used CSS on the html page which I know is not the most opitmal solution as it should be linked in seperate file but in order for the scroll effect to work on comment page I linked on the html page as that is where my only custom css I used for this project. 
 
 # Technolgy used:
 - Python - Provides the functionality for the site.
