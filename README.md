@@ -137,6 +137,9 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - ![Screenshot](/media/timeout-test.PNG)
 
+## Automatic Testing For Javascript function
+- I installed Jest inside my apllication but did not use it as I only used a small amount of Javascript overall to not use it.
+
 
 # Responsiveness Test:
 - Tested the responsive test which bootstrap helps with their templates to fit pages on any page and any screen where I manually tested using google chrome developement tools to test the responsiveness of my project.
