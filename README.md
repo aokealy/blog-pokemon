@@ -4,6 +4,13 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.herokuapp.com/
 - Here is a link to my github https://github.com/aokealy/blog-pokemon
 # User Experience (UX):
+
+## Mock Up:
+- Mockup design on all platforms such as Desktop, Laptop, Tablet and Mobile Phone.
+- Easy and clear view of all links and nice spacing for each platform.
+- Mobile Friendly and tablet friendly.
+- ![Screenshot](/media/mockup-image.png)
+
 ## Wireframes:
 - Login and Register wireframe
 - Easy to find on Front Page in Navbar and simple proccess to to either register or login. Most commonly found on the right side of the navigation bar in a lot of different websites so it gives familiarity.
@@ -21,6 +28,16 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - View the blog where I the text is centered and easily readable alongside adding a comment section underneath where you can view if anyone has made a comment or not and also have CRUD function buttons for your own personal blog post.
 - ![Screenshot](/media/wireframe-blog-detail.PNG)
 
+## Agile User Stories:
+- Here is a link to my user stories: 
+- I followed this guidline and used three cards to determine what was next such as todo, progress and done for completion of my user stories and made sure to follow through and complete each task as I went along during this project. 
+
+- https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
+
+
+
+
+
 # Design Choices:
 ## Typography:
 ### Font:
@@ -33,11 +50,6 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - ![Screenshot](/media/pokemon-ball.png)
 
 - ![Screenshot](/media/bootstrap-colours.PNG)
-
-# Agile User Stories:
-- Here is a link to my user stories: 
-- I followed this guidline and used three cards to determine what was next such as todo, progress and done for completion of my user stories. 
-- https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
 
 # Features:
 ## Existing Features:
@@ -77,8 +89,8 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 
 ### Potential Features:
 
-- I would like to be able to add images in the future 
-- Comments can be upvoted and downvoted
+- I would like to be able to add images in the future and use Cloudinary to host those images.
+- Comments can be upvoted and downvoted.
 - Be able to have a section on core page where updated comments and posts are.
 - show active users on page 
 - links to social media
@@ -126,6 +138,19 @@ Testing is hard but very important to make sure that all functions of your code 
 - ![Screenshot](/media/timeout-test.PNG)
 
 
+# Responsiveness Test:
+- Tested the responsive test which bootstrap helps with their templates to fit pages on any page and any screen where I manually tested using google chrome developement tools to test the responsiveness of my project.
+
+
+## Browser Compatibility
+- Google Chrome 
+- ![Screenshot](/media/chrome-test.PNG)
+
+- Mozilla Firefox 
+- ![Screenshot](/media/firefox-test.PNG)
+
+- Microsoft Edge 
+- ![Screenshot](/media/microsoft-edge-test.PNG)
 
 
 
@@ -154,13 +179,16 @@ Testing is hard but very important to make sure that all functions of your code 
 
 # Reference: 
 - https://getbootstrap.com/docs/4.6/getting-started/introduction/ - Bootstrap 4.6 cdn
+- https://getbootstrap.com/docs/4.6/components/navbar/ - navbar template
 - https://getbootstrap.com/docs/4.6/components/modal/ - bootstrap Modal 
 - https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example - accordion collaspe
 - https://wireframe.cc/ - Wireframes
 - https://getbootstrap.com/docs/4.0/utilities/colors/ - bootstrap colours
 - https://fontawesome.com/ - Font Awesome
 - https://django-crispy-forms.readthedocs.io/en/latest/ - crispy forms 
-
+- https://pypi.org/project/black/ - Used for keeping the python in check with guidlines of PEP8
+- https://docs.djangoproject.com/en/4.2/topics/forms/ - Django Forms 
+- https://websitemockupgenerator.com/ - MockUp generator 
 
 # Deployment:
 
