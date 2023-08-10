@@ -137,6 +137,8 @@ Testing is hard but very important to make sure that all functions of your code 
 
 - Testing views was tough as testing is something that takes time to get used too but that is something I want to improve further down the line. 
 
+- Inside mobile view the hamburger menu does not display but can be clicked to view the login logout details
+
 # Technolgy used:
 - Python - Provides the functionality for the site.
 - HTML5 - Provides the content and structure for the website.
@@ -157,6 +159,8 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://wireframe.cc/ - Wireframes
 - https://getbootstrap.com/docs/4.0/utilities/colors/ - bootstrap colours
 - https://fontawesome.com/ - Font Awesome
+- https://django-crispy-forms.readthedocs.io/en/latest/ - crispy forms 
+
 
 # Deployment:
 
