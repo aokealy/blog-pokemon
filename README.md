@@ -34,6 +34,68 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 
 - https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
 
+## Document User Stories:
+### User Story Login: (Completed)
+- User can access login page from when they access website
+- User be able to Login after the have registered
+- User to be redirected after logging in
+
+### User Story Registration: (Completed)
+- User to be able to register without going to admin.
+- User to be able to easily signup with clear and easy layout for user
+- User to be able to access the register page from main menu
+- User can create username when registering
+- User can log in after creating an account
+
+### User Story Logout: (Completed)
+- User can logout of blog and would be redirected back to login page.
+- User will no longer have access to main page until user logs back in.
+
+### User Story Access Core Page: (Completed)
+- User is able to view the core page when the user finishes logging in.
+- User will see Blog Posts and can create blog posts.
+- User will have navbar on main page with features such as account and logout.
+
+### User Story Create Blog: (Completed)
+- User be able to create a blog post with a title and description
+- User can see there blog post created
+- User can create many blogs.
+- User will only be able to see this blog when logged in.
+
+### User Story View Blog Page: (Completed)
+- User can click on any blog that is displayed
+- User click on any title of blog to access blog page
+- User can scroll down to see all blog posts
+- User can leave a comment on blog post
+- User can edit or delete own blog post
+- User cannot delete other user's blog posts.
+
+### User Story Edit Blog Post: (Completed)
+- User who created a blog when clicking on that blog will see an edit button where the user can edit and change the title and description of that blog page.
+- User will be able to confirm change and will update after updating it.
+
+### User Story Delete Blog Page: (Completed)
+- User can delete a blog page that they created by clicking on the delete button that will bring them to the delete page and give them a choice of deleting the blog or cancel deleting the blog.
+- User after cancelling the delete blog will be redirected back to the blog post itself.
+- User who delete blog post will be redirected back to main page.
+
+### User Story Access Account Page: (Completed)
+- User can access account page and view there account details on that page.
+- User will have edit button on account page
+- User can see account Username and Email on account page.
+
+### User Story Edit Account Page: (Completed)
+- User can edit their account page such as username and email.
+- User can go back or choose to confirm profile changes.
+- Both buttons will redirect user back to account page.
+
+### User Story Leave Comment: (Completed)
+- User can click on any blog post and leave a comment under the blog post.
+- User blog post comment count will increase based on how many comments are on that blog post.
+- User can access the comments and see who wrote a comment on that post.
+
+
+
 
 
 
