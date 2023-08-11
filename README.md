@@ -207,6 +207,12 @@ Testing is hard but very important to make sure that all functions of your code 
 # Responsiveness Test:
 - Tested the responsive test which bootstrap helps with their templates to fit pages on any page and any screen where I manually tested using google chrome developement tools to test the responsiveness of my project.
 
+- Responsive Login Page
+- ![Screenshot](/media/responsive-login.PNG)
+
+- Responsive Core Page
+- ![Screenshot](/media/responsive-core.PNG)
+
 
 ## Browser Compatibility
 - Google Chrome 
