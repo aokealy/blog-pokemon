@@ -259,10 +259,11 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://pypi.org/project/black/ - Used for keeping the python in check with guidlines of PEP8
 - https://docs.djangoproject.com/en/4.2/topics/forms/ - Django Forms 
 - https://websitemockupgenerator.com/ - MockUp generator 
-- https://docs.djangoproject.com/en/4.2/topics/auth/default/ - auntentication 
+- https://docs.djangoproject.com/en/4.2/topics/auth/default/ 
 - https://validator.w3.org/ - html validator 
 - https://jigsaw.w3.org/css-validator/ - CSS validator
 - https://pep8ci.herokuapp.com/# - Code Institute Pep8 guideline 
+- https://dev.to/balt1794/registration-page-using-usercreationform-django-part-2-2fg - UserCreationForm
 
 # Deployment:
 
