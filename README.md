@@ -13,6 +13,7 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 
 ## Wireframes:
 - Login and Register wireframe
+- Start always on the Login Page when accessing the website.
 - Easy to find on Front Page in Navbar and simple proccess to to either register or login. Most commonly found on the right side of the navigation bar in a lot of different websites so it gives familiarity.
 - ![Screenshot](/media/wireframe-login.PNG)
 
