@@ -108,8 +108,8 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes. Sans-serif typefaces tend to have less stroke width variation than serif typefaces
 
 ### Colours:
-- The colours that were used during this project were the standard bootstrap colours. 
-- The main one that was used was the danger bootstrap font to represent the colour of a pokemon ball with the red and the white to give off the Pokemon ball vibe.
+- The colours that were used during this project were the standard bootstrap colours as I wanted to keep it simple and relate it to the colour of a Pokemon Ball.
+- The main one that was used was the danger bootstrap font to represent the colour of a pokemon ball with the red and the white to give off the Pokemon ball vibe. The red and white with black text is a perfect and eye appealling colours and using font awesome icons with different colours from different Pokemon from Base Set to give you more pop when seeing some of the font awesome colours. 
 - ![Screenshot](/media/pokemon-ball.png)
 
 - ![Screenshot](/media/bootstrap-colours.PNG)
