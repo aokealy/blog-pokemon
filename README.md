@@ -1,5 +1,5 @@
 # Project 4
-- This is my project 4 submission for Code Institute where I have created a Pokemon blog where you can look at topics of Pokemon and create a blog and interact with others using comments.
+- This is my project 4 submission for Code Institute where I have created a Pokemon blog where you can look at topics of Pokemon and create a blog and interact with others using comments. I have created to display my skills in using autentication and CRUD skills. 
 I have always been passionate about Pokemon so I wanted to create a simple pokemon blog style application that is easy and friendly to use and just have some fun when creating a blog post :).
 - Here is a link to the Heroku deployed website https://blog-pokemon-24f5118ca311.herokuapp.com/
 - Here is a link to my github https://github.com/aokealy/blog-pokemon
@@ -174,7 +174,7 @@ Testing is hard but very important to make sure that all functions of your code 
 - ![Screenshot](/media/coverage-report.PNG)
 
 - Pep8
-- Used PEP8 to follow to make sure the code is readable and has good naming functions to easily read it. 
+- Used PEP8 to follow to make sure the code is readable and has good naming functions to easily read it. I used https://pep8ci.herokuapp.com/# as a reference to see if any errors which I found none after making it inline with PEP8. 
 
 - Testing was done across multiple viewports sizes to ensure responsiveness.
 
@@ -257,6 +257,9 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://docs.djangoproject.com/en/4.2/topics/forms/ - Django Forms 
 - https://websitemockupgenerator.com/ - MockUp generator 
 - https://docs.djangoproject.com/en/4.2/topics/auth/default/ - auntentication 
+- https://validator.w3.org/ - html validator 
+- https://jigsaw.w3.org/css-validator/ - CSS validator
+- https://pep8ci.herokuapp.com/# - Code Institute Pep8 guideline 
 
 # Deployment:
 
