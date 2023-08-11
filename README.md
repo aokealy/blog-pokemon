@@ -30,7 +30,7 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 
 ## Agile User Stories:
 - Here is a link to my user stories: 
-- I followed this guidline and used three cards to determine what was next such as todo, progress and done for completion of my user stories and made sure to follow through and complete each task as I went along during this project. 
+- I followed this guidline and mapped three cards to determine what was next such as todo, progress and done for completion of my user stories and made sure to follow through and complete each task as I went along during this project. 
 
 - https://github.com/aokealy/blog-pokemon/projects?query=is%3Aopen
 
@@ -230,6 +230,8 @@ Testing is hard but very important to make sure that all functions of your code 
 - Inside mobile view the hamburger menu does not display but can be clicked to view the login logout details
 
 - Using main.css became an issue when trying to link the custom page as I had deployed the project and couldn't load static on page so I used CSS on the html page which I know is not the most opitmal solution as it should be linked in seperate file but in order for the scroll effect to work on comment page I linked on the html page as that is where my only custom css I used for this project. 
+
+- Small mistake in blog delete page where it should be blog delete instead of blog detail in the heading but couldn't change in time as I only saw it last second as I do not have time.  
 
 # Technolgy used:
 - Python - Provides the functionality for the site.
