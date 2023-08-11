@@ -274,6 +274,7 @@ Testing is hard but very important to make sure that all functions of your code 
 - https://jigsaw.w3.org/css-validator/ - CSS validator
 - https://pep8ci.herokuapp.com/# - Code Institute Pep8 guideline 
 - https://dev.to/balt1794/registration-page-using-usercreationform-django-part-2-2fg - UserCreationForm
+- Code Institute Blog project (I Think Therfore I Blog)
 
 # Deployment:
 
