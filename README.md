@@ -166,7 +166,7 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - ![Screenshot](/media/css-report.PNG)
 
 - HTML Validator:
-- small div unused but couldn't find
+- small div unused but couldn't find but other than that there were no errors found when filtering that out.
 - ![Screenshot](/media/html-report.PNG)
 
 - Unittest and Coverage:
