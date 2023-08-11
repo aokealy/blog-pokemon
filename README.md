@@ -15,18 +15,22 @@ I have always been passionate about Pokemon so I wanted to create a simple pokem
 - Login and Register wireframe
 - Start always on the Login Page when accessing the website.
 - Easy to find on Front Page in Navbar and simple proccess to to either register or login. Most commonly found on the right side of the navigation bar in a lot of different websites so it gives familiarity.
+- The design process was made before where I wanted a simple layout with simple features which give a fun feel to it and also modern.
 - ![Screenshot](/media/wireframe-login.PNG)
 
 - Core page wireframe
 - Split the core page into two sections where everything is displayed such as the create blog and displaying the blogs. My idea is that everything is on one page and not split into different pages which could confuse the user so I decided it would be best to display into two sections instead. 
+- The core page was designed so everything is simple to nagivate too without making it too complicated with different pages etc so when designing it I wanted to make sure the user can figure out everything quickly with also the help of icons. 
 - ![Screenshot](/media/wireframe-core.PNG)
 
 - accounts page wireframe
 - Friendly Icons and good colours when looking at editing your account and looking at the account which gives you a friendly vibe and easily layed out to change name and email.
+- Simple design layout with easy button to read and understand how to edit and check your profile.
 - ![Screenshot](/media/wireframe-account.PNG)
 
 - Blog Detail wirframe
 - View the blog where I the text is centered and easily readable alongside adding a comment section underneath where you can view if anyone has made a comment or not and also have CRUD function buttons for your own personal blog post.
+- Again with the design I have decided to add different colour buttons to make it easier for the user to differ from one another and simple layout where you can easily see the blog detail and also see the comments.
 - ![Screenshot](/media/wireframe-blog-detail.PNG)
 
 ## Agile User Stories:
